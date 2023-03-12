@@ -25,6 +25,10 @@ let package = Package(
                 .product(name: "FirebaseAuth", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk")
             ]),
+        .target(
+            name: "dsfdsffds",
+            dependencies: []
+        ),
         .testTarget(
             name: "DsdsTests",
             dependencies: ["Dsds"]),
