@@ -10,6 +10,7 @@ let package = Package(
         .library(
             name: "Dsds",
             targets: ["Dsds"]),
+        .library(name: "fdsf4", targets: ["fdsf4"])
     ],
     dependencies: [
         .package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "10.4.0"))
@@ -26,7 +27,7 @@ let package = Package(
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk")
             ]),
         .target(
-            name: "dsfdsffds",
+            name: "fdsf4",
             dependencies: []
         ),
         .testTarget(
